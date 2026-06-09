@@ -1,0 +1,6 @@
+name = "qr-generator-worker"
+type = "javascript"
+main = "index.js"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
